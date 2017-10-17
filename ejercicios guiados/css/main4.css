@@ -1,8 +1,6 @@
 body p {
-  width: auto;
-  height: 30vh;
   margin: 20px;
-  display: block;
+  display: inline-block;
   box-sizing: border-box;
   border: 10px transparent solid;
   font-size: 20px;
