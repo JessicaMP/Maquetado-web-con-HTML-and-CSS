@@ -1,0 +1,16 @@
+body p {
+  width: auto;
+  height: 30vh;
+  margin: inherit;
+  [display: block]
+}
+
+body :first-child + p{
+  background-color: #f7b617;
+}
+body  p + p{
+  background-color: #2b2b2b;
+}
+body :last-child {
+  background-color: #f7b617;
+}
